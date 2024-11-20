@@ -2,11 +2,17 @@ fieldsLeastSquaresProblem = Dict(
     :A => Matrix{Float64},
     :b => Vector{Float64},
     :sol => Vector{Float64},
-    :resid_norm => Float64,
     :init => Vector{Float64},
-    :interpret => Function,   
 )
 
+
+"""
+    test_least_squares_problem(type)
+
+Macro for implementing tests to verify that a sub-type of a `LeastSquaresProblem`
+    has fields `A::Matrix{Float64}`, `b::Vector{Float64}`, `sol::Vector{Float64}`,
+    and `init::Vector{Float64}` to ensure a common interface. 
+"""
 macro test_least_squares_problem(type)
     expr = quote
 
