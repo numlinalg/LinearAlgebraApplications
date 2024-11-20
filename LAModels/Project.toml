@@ -1,0 +1,10 @@
+name = "LAModels"
+uuid = "48a934a0-4e69-48c9-989e-40fd97dd393f"
+authors = ["Vivak Patel <vp314@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Test = "1.11.0"
