@@ -7,7 +7,7 @@ fieldsLinearSystemsProblem = Dict(
 
 
 """
-    test_linear_systems_problem(type)
+    @test_linear_systems_problem(type)
 
 Macro for implementing tests to verify that a sub-type of a `LinearSystemsProblem`
     has fields `A::Matrix{Float64}`, `b::Vector{Float64}`, `sol::Vector{Float64}`,

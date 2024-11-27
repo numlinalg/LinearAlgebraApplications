@@ -7,7 +7,7 @@ fieldsLeastSquaresProblem = Dict(
 
 
 """
-    test_least_squares_problem(type)
+    @test_least_squares_problem(type)
 
 Macro for implementing tests to verify that a sub-type of a `LeastSquaresProblem`
     has fields `A::Matrix{Float64}`, `b::Vector{Float64}`, `sol::Vector{Float64}`,
