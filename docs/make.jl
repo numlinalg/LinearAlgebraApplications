@@ -7,3 +7,7 @@ makedocs(
         "Linear Algebra Models" => "LAModels.md",
     ]
 )
+
+deploydocs(
+    repo = "github.com/numlinalg/LinearAlgebraApplications",
+)
