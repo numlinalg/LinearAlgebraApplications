@@ -1,4 +1,2 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-LAModels = "48a934a0-4e69-48c9-989e-40fd97dd393f"
-LinearAlgebraApplications = "aaced8c2-d098-4b08-af58-3372a2417b56"

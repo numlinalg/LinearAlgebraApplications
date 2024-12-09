@@ -1,4 +1,7 @@
-using Documenter, LAModels
+using Documenter 
+
+include("../LAModels/src/LAModels.jl")
+using .LAModels
 
 makedocs(
     sitename="Linear Algebra Application Test Suite",
