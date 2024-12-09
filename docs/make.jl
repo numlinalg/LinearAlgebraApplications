@@ -1,7 +1,9 @@
-using Documenter 
+using Pkg 
+Pkg.instantiate()
 
 include("../LAModels/src/LAModels.jl")
-using .LAModels
+
+using Documenter, .LAModels
 
 makedocs(
     sitename="Linear Algebra Application Test Suite",
