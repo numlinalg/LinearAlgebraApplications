@@ -1,5 +1,8 @@
 # A collection of repositories for creating standardized application interfaces 
 # for RLinearAlgebra.jl
 
+module 
 
-include("../LAModels/src/LAModels.jl"); Pkg.add("LAModels")
+using Pkg 
+Pkg.develop(PackageSpec(path=pwd()*"/../LAModels")); Pkg.instantiate()
+end
